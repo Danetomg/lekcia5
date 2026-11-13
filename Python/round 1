@@ -1,0 +1,8 @@
+import math
+
+SEATS_PER_COMPARTMENT = 4
+
+mesto = int(input("Введите номер своего места: "))
+kupe = math.ceil(mesto / SEATS_PER_COMPARTMENT)
+
+print("номер вашего купе:", kupe)
