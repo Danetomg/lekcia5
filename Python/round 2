@@ -1,0 +1,7 @@
+import math
+
+x1, y1 = map(float, input("Введите координаты первой точки(x и y): ").split())
+x2, y2 = map(float, input("Введите координаты второй точки(x и y): ").split())
+distance = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
+
+print(f"Расстояние между точками: {distance:.2f} метров")
